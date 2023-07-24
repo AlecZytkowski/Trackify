@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: darkgray;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+  
+  .App {
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .todo {
+    cursor: pointer;
+  }
+  .strike {
+    text-decoration: line-through;
+    color: red;
+  }
+  
+  .toDoCard {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border: solid white 3px;
+    border-radius: 10px;
+    width: 80%;
+    padding: 10px;
+    margin-left: 10%;
+  }
+  
+  .submitButton {
+    background-color: #4caf50;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    border-radius: 12px;
+    margin-left: 10px;
+  }
+  
+  .submitButton:hover {
+    background-color: #3e8e41;
+  }
+  
+  .submitButton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 2px #666;
+    transform: translateY(1px);
+  }
+  
+  .clearCompletedButton {
+    margin: "20px";
+    border-radius: 10px;
+    background-color: #ad0505;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    opacity: 0.6;
+    transition: 0.3s;
+    margin-top: 5px;
+  }
+  
+  .clearCompletedButton:hover {
+    opacity: 1;
+  }
+  
+  .formInputField {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: solid white 2px;
+    border-radius: 5px;
+  }
+  

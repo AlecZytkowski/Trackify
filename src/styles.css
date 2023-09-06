@@ -1,83 +1,79 @@
 body {
-    margin: 0px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: darkgray;
-  }
-  
-  code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-      monospace;
-  }
-  
-  .App {
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .todo {
-    cursor: pointer;
-  }
-  .strike {
-    text-decoration: line-through;
-    color: red;
-  }
-  
-  .toDoCard {
-    background-color: black;
-    color: white;
-    font-weight: bold;
-    border: solid white 3px;
-    border-radius: 10px;
-    width: 80%;
-    padding: 10px;
-    margin-left: 10%;
-  }
-  
-  .submitButton {
-    background-color: #4caf50;
-    padding: 5px;
-    font-weight: bold;
-    color: white;
-    border-radius: 12px;
-    margin-left: 10px;
-  }
-  
-  .submitButton:hover {
-    background-color: #3e8e41;
-  }
-  
-  .submitButton:active {
-    background-color: #3e8e41;
-    box-shadow: 0 2px #666;
-    transform: translateY(1px);
-  }
-  
-  .clearCompletedButton {
-    margin: "20px";
-    border-radius: 10px;
-    background-color: #ad0505;
-    padding: 5px;
-    font-weight: bold;
-    color: white;
-    opacity: 0.6;
-    transition: 0.3s;
-    margin-top: 5px;
-  }
-  
-  .clearCompletedButton:hover {
-    opacity: 1;
-  }
-  
-  .formInputField {
-    color: black;
-    background-color: white;
-    padding: 10px;
-    margin-top: 10px;
-    border: solid white 2px;
-    border-radius: 5px;
-  }
-  
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.todo {
+  cursor: pointer;
+  margin: 8px 0;
+  color:green;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: red;
+}
+
+.toDoCard {
+  background-color: #ffffff;
+  color: #333333;
+  font-weight: bold;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 400px;
+  padding: 16px;
+  margin: 16px auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.submitButton {
+  background-color: #4caf50;
+  padding: 8px 16px;
+  font-weight: bold;
+  color: #ffffff;
+  border: none;
+  border-radius: 12px;
+  margin-left: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #45a049;
+}
+
+.clearCompletedButton {
+  border-radius: 10px;
+  background-color: #ad0505;
+  padding: 8px 16px;
+  font-weight: bold;
+  color: #ffffff;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  margin-top: 10px;
+}
+
+.clearCompletedButton:hover {
+  opacity: 1;
+}
+
+.formInputField {
+  color: #333333;
+  background-color: #ffffff;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+}
+
+.formInputField::placeholder {
+  color: #999999;
+}

@@ -37,7 +37,7 @@ export default function App() {
     <div className="App">
       <Header />
       <div className="toDoCard">
-        <h3>Your Current Tasks:</h3>
+        <h2>Your Current Tasks:</h2>
         <ToDoList
           toDoList={toDoList}
           handleToggle={handleToggle}

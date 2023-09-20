@@ -1,6 +1,9 @@
-# Getting Started with Create React App
+# Description
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Trackify is a React-based task tracking app that simplifies your to-do list management. With Trackify, you can effortlessly input tasks, add them to your list, mark them as completed, and easily clear completed tasks, helping you stay organized and on top of your daily goals.
+
+# Check it out!
+https://aleczytkowski.github.io/Trackify/
 
 ## Available Scripts
 
